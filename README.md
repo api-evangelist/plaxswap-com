@@ -64,5 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Plaxswap is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://plaxswap.com
+Plaxswap, operated by SAMZAL LLC, offers a decentralized crypto swap service, self‑custody wallet, payment gateway and payment links. Users can swap any coin directly to their wallet without an account, integrate payment APIs, and access a sandbox for testing. The platform emphasizes non‑custodial transactions, live pricing, and developer tools for embedding crypto payments.
+
+**Areas:** Company · Crypto · Payments · Wallet · Swap
+
+## Plaxswap on APIs.io
+
+Everything profiled for Plaxswap is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/plaxswap-com/](https://apis.io/providers/plaxswap-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [Plaxswap Accounts API](https://apis.io/apis/plaxswap-com/plaxswap-com-accounts-api/) — Optional accounts with no sign-up: order history, address book, referrals. The account key lives in an HttpOnly cookie; writes need x-px-account: 1.
+- [Plaxswap Checkout API](https://apis.io/apis/plaxswap-com/plaxswap-com-checkout-api/) — What the hosted checkout page calls. No key; the payer's browser.
+- [Plaxswap Merchant account API](https://apis.io/apis/plaxswap-com/plaxswap-com-merchant-account-api/) — Sign up, your account's settings, keys and webhook deliveries.
+- [Plaxswap Orders API](https://apis.io/apis/plaxswap-com/plaxswap-com-orders-api/) — Reading and changing an order. Changes need the order token.
+- [Plaxswap Partner portal API](https://apis.io/apis/plaxswap-com/plaxswap-com-partner-portal-api/) — Your volume, commission, webhook deliveries and withdrawals. Needs your API key.
+- [Plaxswap Payment gateway API](https://apis.io/apis/plaxswap-com/plaxswap-com-payment-gateway-api/) — Accept crypto on your website: create a payment, send the payer to the hosted checkout, get a signed webhook. Needs your merchant key (pxs_live_... or…
+- [Plaxswap Payment links API](https://apis.io/apis/plaxswap-com/plaxswap-com-payment-links-api/) — "Pay me exactly X of coin Y": links that anyone can pay with any supported coin.
+- [Plaxswap Price alerts API](https://apis.io/apis/plaxswap-com/plaxswap-com-price-alerts-api/) — One Telegram message when a rate crosses a number.
+- [Plaxswap Sandbox API](https://apis.io/apis/plaxswap-com/plaxswap-com-sandbox-api/) — Only where developer tools are on.
+- [Plaxswap Service API](https://apis.io/apis/plaxswap-com/plaxswap-com-service-api/) — Mode, coins, status and policies. No authentication.
+- [Plaxswap Support API](https://apis.io/apis/plaxswap-com/plaxswap-com-support-api/) — Support requests without an account, read on a private page.
+- [Plaxswap Swaps API](https://apis.io/apis/plaxswap-com/plaxswap-com-swaps-api/) — Prices, quotes and new orders, and the website swap form's decentralized routes (/api/v1/dex). An API key is optional and adds your commission; on swap-form…
+- [Plaxswap Webhooks API](https://apis.io/apis/plaxswap-com/plaxswap-com-webhooks-api/) — Signed POST requests to your webhook URL.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Plaxswap Com Webhooks](https://apis.io/asyncapis/plaxswap-com/plaxswap-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Plaxswap Agentic Access](https://apis.io/agentic-access/plaxswap-com/plaxswap-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CheckoutView](https://apis.io/schemas/plaxswap-com/plaxswap-com-checkout-view/)
+- [CreateOrderRequest](https://apis.io/schemas/plaxswap-com/plaxswap-com-create-order-request/)
+- [CreatePaymentRequest](https://apis.io/schemas/plaxswap-com/plaxswap-com-create-payment-request/)
+- [MetaResponse](https://apis.io/schemas/plaxswap-com/plaxswap-com-meta-response/)
+- [OrderView](https://apis.io/schemas/plaxswap-com/plaxswap-com-order-view/)
+- [PaymentView](https://apis.io/schemas/plaxswap-com/plaxswap-com-payment-view/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Plaxswap Com Context](https://apis.io/jsonld/plaxswap-com/plaxswap-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Plaxswap API Rules](https://apis.io/rules/plaxswap-com/plaxswap-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Plaxswap Authentication](https://apis.io/security/plaxswap-com/plaxswap-com-authentication/)
+- [Plaxswap Domain Security](https://apis.io/security/plaxswap-com/plaxswap-com-domain-security/)
+- [Plaxswap Vulnerability Disclosure](https://apis.io/security/plaxswap-com/plaxswap-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://plaxswap.com)
+- [Documentation](https://plaxswap.com/developers/payments)
+- [API reference](https://plaxswap.com/developers)
+- [Support](https://plaxswap.com/help)
+- [Security](https://plaxswap.com/security)
+- [Terms of service](https://plaxswap.com/legal/terms)
+- [Privacy policy](https://plaxswap.com/legal/privacy)
+- [Status](https://plaxswap.com/status)
+
+## API Evangelist rating
+
+**Kin Score 50.9** — developing · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 67.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.0 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 17.0 |
+
+**Agent readiness 48.1** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 27.7** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/plaxswap-com/](https://apis.io/providers/plaxswap-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Plaxswap: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/plaxswap-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
